@@ -8,6 +8,10 @@ const Counter = (props) =>
     {
         setCountState(countState + props.incBy)
     }
+    
+    const countStyle = {
+        fontSize: "2em"
+    }
 
     return(
         <div>
